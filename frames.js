@@ -249,6 +249,7 @@ framesArr = [
     `
 ];
 
+//Adding Padding so that the frames are more consistent
 for(let frameIndex=0;frameIndex<framesArr.length;frameIndex++){
     var lines = framesArr[frameIndex]
     for(let lineIndex=0;lineIndex<lines.length;lineIndex++){
